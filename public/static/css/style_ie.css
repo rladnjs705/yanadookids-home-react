@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@media (min-aspect-ratio: 16/9) {
+  #videoPC {
+    width: 100%; /* actually wider than viewport */
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoPC {
+    width: auto; /* actually wider than viewport */
+    height: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+		/************** Navi 1차 메뉴 Intro **************/ 
+
+		.navi_logo { display: block; padding-left: 20px; padding-right: 20px; float: left; }
+		#navi { display: inline-block; width: 816px; height: 77px; text-align: left; font-size: 18px; font-weight:bold; font-family: Helvetica, sans-serif;}
+		#navi ul { display: block;position:relative; margin:0; padding:0; background: #ffffff }
+		#navi li { display: block;height: 40px; list-style: none; float: left; padding-left: 10px; padding-right: 10px; line-height: 60px;  }
+        #navi li a {color: #46a8b2; display: block; text-decoration: none;  }
+        #navi .m_text1 a {color:#46a8b2;  }
+        #navi .m_text2 a {color:#2587b8; }
+        #navi .m_text3 a {color:#f48166; }        
+        #navi .m_text4 a {color:#fabc1f; }
+        #navi .m_text5 a {color:#7fa318; }
+        #navi li a:hover { color: #086aae; height: 60px; background: transparent url("../home_img/navi_active.png")  repeat-x ; background-position: 0px 0px; }
+             
+        /************** Navi 2차 메뉴 Intro **************/ 			
+		#navi li ul { display: none }
+		#navi li:hover ul {display: block; width: 816px; position: absolute; top: 40px; left:0px; margin:0; padding:0; z-index: 4;}
+        #navi li:hover li {display: block; height: 40px; line-height: bottom; font-size: 15px; font-weight:bold; font-family: Helvetica, sans-serif; }
+        #navi li:hover li a {display: block; height: 40px; color: gray ; background: transparent url("../home_img/navi_normal.png") 0px 0px  repeat-x ;}
+        #navi li:hover li a:hover {display: block;color: #086aae; height: 40px;  background: transparent url("../home_img/navi_normal.png") 0px 0px  repeat-x ; }
+
+	    /************** Navi 1차 메뉴 Active **************/ 	
+	    #navi li.active a {color: #086aae; height: 100px; background:#ff00ff; background: transparent url("../home_img/navi_active.png") 0px 0px repeat-x;  }    
+	    #navi li.active a:hover {color: #086aae; height: 30px; background: transparent url("../home_img/navi_active.png") 0px 0px repeat-x }    
+
+		/************** Navi 2차 메뉴 Active **************/ 	
+		#navi li.active ul {display: block; width: 798px; position: absolute; top: 40px; left:0px; margin:0; padding:0; z-index: 2; }
+        #navi li.active li {display: block; height:40px; line-height: bottom; font-size: 15px; font-weight:bold; font-family: Helvetica, sans-serif;  }
+        #navi li.active li a {display: block; height: 40px; background: transparent url("../home_img/navi_normal.png") 0px 20px  repeat-x ; color: gray }
+        #navi li.active li.active a {color: #086aae; text-decoration: none;}        
+        #navi li.active li a:hover {color: #086aae; height: 40px; background: transparent url("../home_img/navi_normal.png") 0px 0px  repeat-x ; z-index: 3;  }  

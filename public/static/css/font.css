@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "NanumSquare Regular";
+  src: local("☺"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acR.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acR.woff) format("woff"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acR.otf) format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare Bold";
+  src: local("☺"),
+  url(../font/NanumSquare_AC/NanumSquareOTF_acB.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acB.woff) format("woff"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acB.otf) format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare ExtraBold";
+  src: local("☺"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acEB.eot?#iefix) format("embedded-opentype"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acEB.woff) format("woff"),
+    url(../font/NanumSquare_AC/NanumSquareOTF_acEB.otf) format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* @font-face {
+    font-family: 'Kakao Light';
+    src:url(../font/Kakao-aLt.eot);
+    src:local("☺"),
+    url(../font/Kakao-aLt.eot?#iefix) format('embedded-opentype'),
+    url(../font/Kakao-aLt.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Kakao Regular';
+    src:url(../font/Kakao-bRg.eot);
+    src:local("☺"),
+    url(../font/Kakao-bRg.eot?#iefix) format('embedded-opentype'),
+    url(../font/Kakao-bRg.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Kakao Bold';
+    src:url(../font/Kakao-cBd.eot);
+    src:local("☺"),
+    url(../font/Kakao-cBd.eot?#iefix) format('embedded-opentype'),
+    url(../font/Kakao-cBd.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+} */
+
+@font-face {
+    font-family:'NotoSans Light';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/notokr-light.eot);
+    src: local(☺),
+    url(../font/notokr-light.eot?#iefix) format('embedded-opentype'),
+    url(../font/notokr-light.woff) format('woff');
+}
+@font-face {
+    font-family:'NotoSans DemiLight';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/NotoSansCJKkr-DemiLight.eot);
+    src: local(☺),
+    url(../font/NotoSansCJKkr-DemiLight.eot?#iefix) format('embedded-opentype'),
+    url(../font/NotoSansCJKkr-DemiLight.woff) format('woff');
+}
+@font-face {
+    font-family:'NotoSans Regular';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/NotoSans-Regular.eot);
+    src: local(☺),
+    url(../font/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../font/NotoSans-Regular.woff) format('woff');
+}
+@font-face {
+    font-family:'NotoSans Light';
+    font-style:normal;
+    font-weight:bold;
+    src:url(../font/notokr-bold.eot);
+    src: local(☺),
+    url(../font/notokr-bold.eot?#iefix) format('embedded-opentype'),
+    url(../font/notokr-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../font/glyphicons-halflings-regular.eot');
+  src: url('../font/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../font/glyphicons-halflings-regular.woff2') format('woff2'), url('../font/glyphicons-halflings-regular.woff') format('woff'), url('../font/glyphicons-halflings-regular.ttf') format('truetype'), url('../font/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}

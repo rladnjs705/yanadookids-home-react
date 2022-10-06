@@ -1,0 +1,290 @@
+*{font-family: 'Apple SD Gothic Neo',AppleSDGothicNeo,'Malgun Gothic',/*'맑은 고딕',*/sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+
+}
+body{
+    webkit-overflow-scrolling:touch;
+    overflow-y:scroll;
+}
+.left{text-align: left !important;}
+.center{text-align: center !important;}
+.right{text-align: right !important;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+.dotpattern{
+    height:6px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/01_kakako_kids/x2/main_magazine_pattern_x2.png);
+    background-size:10.5px 6px;
+}
+.ringbg{
+    width:440px;
+    height:40px;
+    padding:0px 20px;
+    background:transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/ring/x2/ring_bg_x2.png) repeat-x 0px 15px;
+    background-size: 17px 6px;
+}
+
+body,html{height:100%;}
+#left.on{
+    transform: translate(310px,0);
+    -webkit-transform: translate(310px,0); /** Chrome & Safari **/
+    -o-transform: translate(310px,0); /** Opera **/
+    -moz-transform: translate(310px,0); /** Firefox **/
+}
+#left.off{
+    transform: translate(0px,0);
+    -webkit-transform: translate(0px,0); /** Chrome & Safari **/
+    -o-transform: translate(0px,0); /** Opera **/
+    -moz-transform: translate(0px,0); /** Firefox **/
+}
+#left{position:fixed;top:0px;left:0px;
+    width:310px;
+    overflow-y:scroll;
+    height:100%;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all .2s ease-in-out; /** Firefox **/
+    -o-transition: all .2s ease-in-out; /** Opera **/
+    left:-310px;
+    z-index: 100;
+    background: #fff;;
+}
+.bodySubTitle{font-size:26px;font-weight: 200;margin:30px 0px 0px 0px;text-align: center;color:#fe7c00;}
+.bodySubTitleLine{margin:10px auto 40px auto;border-bottom:solid 1px #fe7c00;width:50px;}
+
+#body{width:480px;background:#fff;overflow: hidden;}
+#body.on{overflow-y:scroll;}
+#body.off{overflow:hidden;height:100%;}
+#head{width:480px;height:340px;
+background: #ffe400 url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/kakaokids_main_header_ch.png) no-repeat 0px bottom;
+background-size: 480px 299.5px;
+}
+.wrap{padding:0px 20px 0px 20px}
+
+#headtopbtn{height:40px;padding-top:15px;}
+#leftmenu_btn{
+    display:block;width:33px;height:33px;float:left;margin-left:30px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/x2/kakaokids_m_main_list_button_x2.png) no-repeat 0px 0px;
+    background-size:33px 31px;
+}
+.kakaokidscolor{color:#ff7354;}
+#mainheader{margin-top:0px;}
+#mainheader .mainhead1{font-size:20px;margin:0px;text-align: center;font-weight: 200;;
+    color:#2d2d2d;
+}
+#mainheader .mainhead2{color:#2d2d2d;text-align: center;margin-top:115px;}
+#mainheader .mainhead2 .withtext{font-size:16px;width:110px;display:inline-block;}
+#mainheader .mainhead2 .withcount{font-size:26px;width:160px;display:inline-block;}
+#kakaokids_logo{display:block;width:100%;height:70px;
+    background: #ffe400 url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/x2/new_kakaokids_logo_x2.png) no-repeat 65px 15px;
+    background-size: 177.5px 39px;
+}
+#left .leftmenu{
+    display:block;height:63px;line-height:63px;
+    border-bottom:solid 1px #f2f2f2;font-size:25px;
+    text-align:left;
+    padding-left:50px;
+    text-decoration: none !important;
+    color:#000;
+}
+#left .leftmenu.active,#left .leftmenu:visited
+{
+    color:#000;
+}
+
+#left .leftmenu.down
+{
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main_menu/x2/m_main_manu_arrow_x2.png) no-repeat 260px 24px;
+    background-size: 24px 57px;
+}
+#left .leftmenu.up
+{   text-decoration: none;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main_menu/x2/m_main_manu_arrow_x2.png) no-repeat 260px -19px;
+    background-size: 24px 57px;
+}
+#left .submenu{background-color:#f2f2f2;list-style: none;margin:0px;padding:0px;
+    height:0px !important;
+    overflow: hidden;
+}
+#left .submenu.on{
+    height:100% !important;
+}
+#left .submenu.off{
+    height:0px !important;
+}
+
+#left .submenu li{border-bottom:solid 1px #fff;
+    height:63px;line-height:63px;
+}
+#left .submenu li a{font-size:18px;padding-left:70px;color:#2d2d2d;text-decoration: none;display:block;}
+#left .submenu li a.active{color:#ff7354;}
+
+#leftoutbg{background-color:rgba(0,0,0,0.4);width:100%;height:100%;z-index: 1;position: fixed;display:none;top:0px;left:0px;}
+#leftoutbg.on{display:block;}
+#leftoutbg.off{display:none;}
+
+#kakaokids_about{padding-top:30px;}
+#kakaokids_about:after { content:""; clear:both; display:block; *zoom:1;}
+#kakaokids_about .kidsabout_left{float:left;width:100px;}
+#kakaokids_about .kidsabout_right{padding-left:15px;float:left;}
+#kakaokids_about .kidsabout_right h3{margin:0px 0px 0px 0px;font-size:20px;}
+#kakaokids_about .kidsabout_right p{margin:4px 0px 0px 0px;font-size:16px;line-height:18px;padding-bottom:10px;word-break:keep-all;}
+#kakaokids_about .storelist{width:100px;height:30px;margin-top:5px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/01_kakako_kids/x2/kakaokids_app_store_button_x2.png) no-repeat 7px -15px;
+    background-size: 271px 299px;
+}
+#kakaokids_about .btn_samsung{margin-right:5px;display:block;float:left;width:132px;height:38px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/01_kakako_kids/x2/kakaokids_app_store_button_x2.png) no-repeat -122px -14px;
+    background-size:271px 299px;
+}
+#kakaokids_about .btn_google{margin-right:5px;display:block;float:left;width:132px;height:38px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/01_kakako_kids/x2/kakaokids_app_store_button_x2.png) no-repeat -122px -109px;
+    background-size: 271px 299px;
+}
+#kakaokids_about .btn_apple{margin-right:5px;display:block;float:left;width:132px;height:38px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/01_kakako_kids/x2/kakaokids_app_store_button_x2.png) no-repeat -122px -203px;
+    background-size: 271px 299px;
+}
+
+.about_item img {width:430px;border:solid 1px #eee;box-sizing: border-box;}
+.about_more{margin:40px auto;display:block;width:197px;height:44px;background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/x2/main_button_x2.png) no-repeat -8px -11px;
+    background-size: 215px 407px;
+}
+
+#about_slide{margin-top:20px;}
+
+
+.tabtitle .vertical_line{border-left: 2px solid #2d2d2d;display: inline-block;height: 13px;margin-right: 8px;}
+#magazine .btn_newmagazine{color:#2d2d2d;font-size:16px;font-weight: 500;text-decoration: none;border-bottom:1px solid #2d2d2d;}
+#magazine .textarea{font-size:16px;font-weight: lighter;margin:0px 0px 6px 0px;
+    width:420px; padding:0 5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+#event{padding-bottom:40px;}
+#event .btn_eventjoin{color:#2d2d2d;font-size:16px;font-weight: 500;text-decoration: none;border-bottom:1px solid #2d2d2d;}
+#event .textarea{font-size:16px;font-weight: lighter;margin:0px 0px 6px 0px;
+    width:420px; padding:0 5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+#kidscontents{padding:20px 0px 0px 0px;}
+#kidscontents .appstitle1{margin:0px;font-size:18px;font-weight:lighter;text-align: center;}
+#kidscontents .appstitle2{margin:10px 0px 35px 0px;font-size:34px;font-weight: 200;text-align: center;}
+
+.contents_more{margin:20px auto;display:block;width:197px;height:44px;background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/x2/main_button_x2.png) no-repeat -8px -148px;
+    background-size: 215px 407px;
+}
+
+
+#brand_app_slide .app_item{text-decoration: none;  }
+#brand_app_slide .app_item h3{color:#2d2d2d;      font-weight: lighter; font-size:15px;
+    width:88px;
+    text-align: center;}
+
+#moreapps_slide{}
+#moreapps_slide .apps_item img{width:430px;border:solid 1px #eee;box-sizing: border-box;}
+#brand_app{width:430px;position: relative;}
+.prev{cursor:pointer;position:absolute;top:0px;left:-25px;width:30px;height:90px;font-size:40px;background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/02_kakako_contents/app_left_button.png) no-repeat 0px 30px; }
+.next{cursor:pointer;position:absolute;top:0px;left:425px;width:30px;height:90px;font-size:40px;background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/02_kakako_contents/app_right_buttpn.png) no-repeat 0px 30px;}
+
+#platform_slide{margin-top:5px;}
+#platform_slide .platform_item img{width:430px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    border:solid 1px #eee;box-sizing: border-box;}
+
+
+#platform{padding:30px 0px 0px 0px;}
+#platform .subject1{text-align: center;font-weight:lighter; font-size:18px;margin:0px;}
+#platform .subject2{text-align: center;font-weight:200;font-size:34px;margin:10px 0px 35px 0px;}
+#platform .subject3{text-align: center;font-weight:lighter;font-size:13px;margin:0px;}
+
+.platform_more{margin:20px auto;display:block;width:197px;height:44px;background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/x2/main_button_x2.png) no-repeat -8px -285px;
+    background-size: 215px 407px;
+}
+
+
+#footer{background-color:#fdb913;min-height: 200px;margin-top:100px;padding-top:10px;}
+.greenbar{
+    height:10px;
+    background: transparent url(//cdn.yanadookids.com/kakaokids/web/mobile/main/00_main/main_footer_pattern.png?v3.1);
+    background-size: 37.5px 10.5px;
+}
+#footer .followus{
+    width:92px;height:20px;
+    margin:30px auto 15px auto;
+    background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/Footer/x2/kakaokids_follow_us_icon_x2.png?v6) no-repeat -90px 0px;
+    background-size: 220px 139px;
+}
+#SnsLinkSection{width:167px;margin:0 auto;}
+#SnsLinkSection:after { content:""; clear:both; display:block; *zoom:1;}
+#SnsLinkSection a{display:block;float:left;}
+#facebookbtn{
+    width:45px;height:45px;
+    background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/Footer/x2/kakaokids_follow_us_icon_x2.png?v6) no-repeat -52px -36px;
+    background-size: 220px 139px;
+}
+#youtubebtn{            width:45px;height:45px;
+    margin:0px 15px;
+    background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/Footer/x2/kakaokids_follow_us_icon_x2.png?v6) no-repeat -111px -36px;
+    background-size: 220px 139px;}
+#kakaostorybtn{            width:45px;height:45px;
+    background:url(//cdn.yanadookids.com/kakaokids/web/mobile/main/Footer/x2/kakaokids_follow_us_icon_x2.png?v6) no-repeat -168px -36px;
+    background-size: 220px 139px;}
+
+#SiteLinkSection{margin-top:40px;}
+#SiteLinkSection .bluepin{
+
+    letter-spacing: 0px;
+    padding:0px 0px 0px 0px;
+    background-size: 220px 138px;
+    color:#fff;
+}
+#SiteLinkSection .news{
+    margin:0px 30px;
+    letter-spacing: 0px;
+    padding:0px 0px 0px 0px;
+    background-size: 220px 139px;
+    color:#fff;
+}
+#SiteLinkSection .contact{
+    letter-spacing: 0px;
+    padding:0px 0px 0px 0px;
+    background-size: 220px 139px;
+    color:#fff;
+}
+#copyright{margin-top:60px;font-size:12px;color:#fff;text-align: center;padding-bottom:10px;}
+#pc_btn{display: inline-block;
+    height: 16px;
+    vertical-align: bottom;
+    margin-left: 10px;}
+/*Sub Page*/
+/*플랫폼 FAQ */
+#KidsTabFAQ{}
+#KidsTabFAQ .qnaitem{border-radius:10px;overflow: hidden;border:solid 2px #fff3e9;position: relative;margin-bottom:21px;height:44px;cursor: pointer;}
+#KidsTabFAQ .question_arrow{
+    top: 38px;
+    left: 200px;
+    border-top: 18px solid #fff3e9;
+    border-bottom: none;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+#KidsTabFAQ .question_arrow.x2{border-top-color:#ffebda;}
+#KidsTabFAQ .qnaitem.x2{border-color:#ffebda;}
+#KidsTabFAQ .question{font-size:16px;font-weight:500;height:44px;line-height:48px;margin:0px;background-color:#fff3e9;border-radius:0px;
+    background: #fff3e9 url(//cdn.yanadookids.com/kakaokids/web/3_kidsworld_platform/q.png) no-repeat 10px 10px;
+    background-size:21px 25px;
+    padding:0px 0px 0px 40px;
+}
+#KidsTabFAQ .question.x2{background-color:#ffebda;}
+
+#KidsTabFAQ .answer{background: #fff url(//cdn.yanadookids.com/kakaokids/web/3_kidsworld_platform/bulb.png) no-repeat 10px 20px;
+font-size:16px;font-weight: 200;padding:18px 10px 20px 40px;margin:0px;line-height:25px;
+background-size:16.5px 24px;
+    word-break:keep-all;
+}

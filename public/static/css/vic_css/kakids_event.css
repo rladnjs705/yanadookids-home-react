@@ -1,0 +1,170 @@
+
+.e_txt-type2 {
+    font-size: 22px;
+    color: #72706a;
+}
+
+.e_txt-type2 span {
+    font-weight: bold;
+}
+
+.e_text-left {
+    text-align: left;
+}
+
+
+.e_notice_b_list {
+    padding: 10px;
+}
+.e_notice_b_list small{
+    padding-right: 5px;
+}
+.e_notice_b_list li:before {
+    padding: 5px;
+    font-size: 18px;
+}
+.e_notice_b_list_br{
+    display: none;
+}
+
+
+.e_notice_b_full_size_bg {
+    width: 100%;
+    min-height: 180px;
+    background-color: #e8e8e8;
+    max-height: 220px;
+}
+
+.e_container {
+    max-width: 1100px;
+}
+
+.e_notice_bottom_layout {
+    font-family: "NanumSquare Regular";
+    height: 190px;
+}
+
+.e_sec-sub-bgnormal {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.e_sec-sub-bgA {
+    background-color: #f6f6f6;
+    padding: 0px 0;
+}
+.e_ios_btn{
+
+}
+.e_and_btn{
+
+}
+
+.e_mobile_click_space1{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.e_pc_click_space1{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.e_mobile_click_space1 img{
+    margin-top: 16px;
+}
+.emobile_btn_on_check{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    height: 50px;
+}
+.e_ufo_event_tap_pc{
+    display: block;
+}
+.e_ufo_event_tap_mobile{
+    display: none;
+}
+
+@media all and (max-width: 800px) {
+    .e_sec-sub-bgA{
+        background-color: #FFFFFF;
+    }
+    .e_notice_bottom_layout {
+        height: 290px;
+    }
+    .e_txt-type2{
+        font-size: 20px;
+    }
+    .e_mobile_click_space1{
+        background-color: #303554;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .e_onlmobile_noti_min_height {
+        min-height: 280px;
+    }
+    .e_ufo_event_tap_mobile{
+        display: none;
+    }
+    .e_ufo_event_tap_pc{
+        display: none;
+    }
+
+    .e_notice_b_list li {
+        font-size: 1.2vh;
+        padding: 2px;
+    }
+
+    .e_notice_b_list li:before {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .e_notice_bottom_layout{
+        height: 280px;
+    }
+    .e_notice_b_list small{
+        padding-right: 0;
+        margin:0 3px 0 -5px;
+    }
+    .e_notice_bottom_layout {
+        height: 300px;
+    }
+    .e_onlmobile_noti_min_height {
+        min-height: 290px;
+    }
+    .e_notice_b_list_br{
+        display: block;
+    }
+
+    .e_txt-type2 {
+        font-size: 18px;
+    }
+
+    .e_notice_b_list {
+        padding: 5px;
+    }
+
+    .e_notice_b_list li {
+        font-size: 1.2vh;
+        padding: 2px;
+    }
+
+    .e_notice_b_list li:before {
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 450px) {
+    .e_notice_bottom_layout{
+        height: 265px;
+    }
+}

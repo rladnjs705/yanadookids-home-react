@@ -1,0 +1,15 @@
+.flag{padding:2px 0px 2px 40px;
+    background: transparent url('../images/flag/South-Korea.png') no-repeat 0px -6px;
+}
+.flag.KR{padding:2px 0px 2px 40px;
+    background: transparent url('../images/flag/South-Korea.png') no-repeat 0px -6px;
+}
+.flag.US{padding:2px 0px 2px 40px;
+    background: transparent url('../images/flag/United-States.png') no-repeat 0px -6px;
+}
+.flag.FR{padding:2px 0px 2px 40px;
+    background: transparent url('../images/flag/France.png') no-repeat 0px -6px;
+}
+.flag.KZ{padding:2px 0px 2px 40px;
+    background: transparent url('../images/flag/Kazakhstan.png') no-repeat 0px -6px;
+}

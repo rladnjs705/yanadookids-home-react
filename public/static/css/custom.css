@@ -1,0 +1,41 @@
+.select-list{
+    position: relative;
+    font-family: Arial;
+}
+
+** 롤링배너 */ .slider-banner-wrap {
+  width: 100%;
+  position: relative;
+}
+.slider-banner-wrap .slider-banner {
+  width: 100%;
+}
+.slider-banner-wrap .slider-banner .banner {
+  width: 100%;
+  display: inline-block;
+}
+.event-banner {
+  width: 100%;
+  padding: 0;
+}
+.slider-banner-wrap .btn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.slider-banner-wrap .btn .btn-close {
+  color: white;
+  font-size: 50px;
+}
+
+.slider-banner-wrap .m-btn {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}
+
+.slider-banner-wrap .m-btn .m-btn-close {
+  color: white;
+  font-size: 30px;
+}

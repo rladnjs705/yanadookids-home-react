@@ -1,0 +1,100 @@
+		/************** Public Start **************/
+		html,body {margin:0; padding:0; margin: 0 auto; /*background: #6fb9c1*/ }
+		img,fieldset{border:0}
+		.wrap { width: 100%; height:100%; min-height: 100%; ; text-align: center; background-image:url("../home_img/pattern_bg.png");background-position:center top;background-repeat: no-repeat; }
+		.wrap_header { width: 100%; background: #ffffff} 
+		.wrap_header1024 { margin: 0 auto; width:1002px; text-align:center; background: #ffffff }
+		.wrap_header1025 { margin: 0 auto; width:1002px; text-align:center; background: #ffffff }
+		.wrap_body1024 { width:1002px; background: #ffffff}
+		#wrap_body { margin-top: 5px; width: 1002px; background: #ffffff; box-shadow: -0px 1px 2px 0 #000000; text-align: left; padding-top:0px; } 
+		#wrap_body1 { margin-top: 7px; width: 1002px; background: #ffffff; box-shadow: -0px 1px 2px 0 #000000; text-align: left; padding-top:0px; } 
+        
+		/************** Footer Start **************/
+		.footer {width:1002px; margin-top: 7px }
+		.copyright {width:500px; float: left; font-size: 12px; font-weight:bold; font-family: Helvetica, sans-serif; color:#ffffff; text-align: left}
+		.copyright_index {width:820px; font-size: 12px; font-weight:bold; font-family: Helvetica, sans-serif; color:#ffffff; text-align: left; float:left}
+		.mailto { float: right; font-size: 12px; font-weight:bold; font-family: Helvetica, sans-serif; color:#ffffff ; text-align: right}
+		.mailto a {float: right; font-size: 12px; font-weight:bold; font-family: Helvetica, sans-serif; color:#ffffff ; text-align: right; text-decoration: none}
+		
+		/************** index Start **************/ 	 
+		.textbox {width: 304px; height: 153px; float: left; background: #ffffff; margin-left: 25px; margin-right: 5px; text-align: left;  }
+		.font_headline { text-decoration: none; font-size: 25px; font-weight: normal; font-family: Arial, sans-serif; color: #696c71; height:40px;}
+		.font_body { font-size: 13px; font-weight: normal; font-family: Arial, sans-serif; color: #696c71; text-decoration: none; height:90px }   
+		.font_more { } 
+		.font_more a{ font-size: 13px; font-weight: normal; font-family: Arial, sans-serif; color: #696c71; text-decoration: none; font-style:italic;  } 
+		
+		/************** ceo start **************/ 	
+		.bodytext {display:block; width:770px; margin: 0 auto; padding-bottom:20px;}
+		.bodyservice { width:1002px; text-align:left }
+
+
+
+		#wrap_body .headline .t1 { font-family: Helvetica, sans-serif; font-weight: bold; font-size: 38px; color:#424242; line-height: 150px; margin-left: 130px; }
+		#wrap_body .headline .t2 { font-family: Helvetica, sans-serif; font-weight: bold; font-size: 38px; color:#424242; line-height: 150px; margin-left: 130px; float:left; margin-bottom:-40px }		
+
+		#wrap_body .headline .t3 li { float:left ; margin-left:15px; text-align:center; list-style:none;  }
+		#wrap_body .headline .t3 li a { font-family: Arial, sans-serif; font-weight: bold; font-size: 15px; color:#676767; text-decoration: none; margin-left:20px; float:left ; padding-top:60px  }
+		#wrap_body .headline .t3 li a:hover { font-family: Arial, sans-serif; font-weight: bold; font-size: 15px; color:#3c7ad1; float:left ; text-decoration: none; margin-left:20px;   }
+		#wrap_body .headline .t3 li.active a { font-family: Arial, sans-serif; font-weight: bold; font-size: 15px; color:#3c7ad1; float:left ; text-decoration: none; margin-left:20px; text-shadow:1px 1px 0px #ffffff; }
+		
+		#ceo {text-align:left}
+		#ceo .ceo_title{font-family: Arial, sans-serif; font-size: 26px; color:#676767; font-weight:bold; }
+		#ceo .ceo_body {font-family: Arial, sans-serif; font-size: 16px; color:#676767; line-height: 25px; letter-spacing: -0.05px; word-wrap: break-word}
+		#ceo .ceo_sign {font-family: Arial, sans-serif; font-size: 22px; color:#676767; text-align:right}
+		#history { }
+		#history ul {width:770px; }
+		#history ul p { width: 80px; font-family: Arial, sans-serif; font-size: 20px; color:#00a6f9; font-weight: bold; float: left; margin-top:5px }
+		#history ul li {width: 660px; font-family: Arial, sans-serif; font-size: 14px; color:#676767; margin-left:100px; line-height:30px }
+
+		#faci {width: 770px; text-align: center; margin-top: 20px}
+		#faci ul {list-style: none; float: none; }
+		#faci ul li {display: table; list-style: none; width: 770px; text-align: left; margin-bottom: 30px}
+		#faci ul li img {float: left; vertical-align: text-bottom; margin-right: 20px}
+		#faci ul li p {text-decoration: none;  font-family: Arial, sans-serif; color:#676767; }
+		#faci ul li p.a {font-size: 18px; font-weight:bold; }
+		#faci ul li p.b {font-size: 16px; }
+
+		#bluepin_partners {display:inline-block; width:770px; text-align: center; }
+		#bluepin_partners ul {width: 770px; list-style: none; }
+		#bluepin_partners li {list-style: none; margin-right: 75px; margin-bottom: 20px; float:left; font-weight: bold }
+		.logo {text-decoration: none;  font-family: Arial, sans-serif; color:#676767; font-size:16px ; line-height:40px; padding-top:10px}
+		.logo li {margin-left:10px; text-decoration: none;  font-family: Arial, sans-serif; color:#676767; font-size:16px; line-height:30px ;padding-top:10px}
+
+		.caption { clear:both; font-family: Helvetica, sans-serif; color: #ffffff; font-size:15px; background:#3c7ad1; padding-left:30px; height:20px; text-align:left }
+		.caption_slide {font-family: Helvetica, sans-serif; color: #ffffff; font-size:15px; padding-left:30px; height:20px }
+		.slide_ios { height:588px; background: transparent url("../home_img/service_ipad_bg.png") 0px 0px ;background-repeat: no-repeat; }
+		.char_text {width:770px; margin: 0 auto;}
+		.text_a {font-family: Helvetica, sans-serif; color: #000000; font-size:16px; line-height:1px; font-weight:bold}
+		.text_b {font-family: Helvetica, sans-serif; color: #000000; font-size:15px;}
+
+		#recru {display:inline-block; width:240px; margin-right:16px; float:left;  text-align: left; height: 170px}
+		.recru_title {text-align:left; font-family: Helvetica, sans-serif; font-size: 17px; color:#676767; line-height: 25px; letter-spacing: -0.05px; word-wrap: break-word; border-bottom:3px solid #1c80bb; color:#1c80bb; font-weight:bold; }
+		.recru_body {width:240px; text-align:left; font-family: Arial, sans-serif; font-size: 13px; color:#676767 ; line-height: 20px}
+
+		.contact { width:300px; float:left; margin-top:25px}
+		.contact_a {font-size: 35px; font-weight:bold; font-family: Arial, sans-serif; color:#7d7d7d ; margin-bottom:20px; border-bottom:3px dotted #7d7d7d; line-height:35px;}
+		.contact_b {font-size: 16px; font-weight:normal; font-family: Arial, sans-serif; color:#2587b8; margin-top:10px }
+		.contact_b a { text-decoration: none; font-size: 16px; font-weight:normal; font-family: Arial, sans-serif; color:#2587b8; margin-top:10px; }
+
+		.sitemap {display:inline-block; width:770px; text-align: left; }
+		.sitemap div {color:#454545; margin-bottom: 20px; margin-top: 10px; height: 50px; line-height: 50px; border-bottom:3px solid #1862cb;  font-size: 24px; }
+		.sitemap ul {list-style: none; font-size: 30px; font-weight:bold; font-family: Arial, sans-serif; width:205px; float: left; margin-bottom: 20px}
+		.sitemap ul li {font-size: 16px; font-weight:bold; font-family: Arial, sans-serif;  margin-bottom: 30px; border-bottom:1px solid #ccc;}
+		.sitemap ul li a:link {margin-left: 20px; font-size: 18px; font-family: Arial, sans-serif; color:#686868; text-decoration: none}
+		.sitemap ul li a:visited {margin-left: 20px;font-size: 18px; font-family: Arial, sans-serif;color:#686868; text-decoration: none}
+		.sitemap ul li a:hover {margin-left: 20px;font-size: 18px; font-family: Arial, sans-serif;color:#1862cb; text-decoration: none}
+
+		/*
+
+		.headline { width: 1024px; height:115px; background: transparent url(../img/title_bluepin.png) 0px 0px ;background-repeat: no-repeat; }
+		.headline p{ font-family: Helvetica, sans-serif; font-weight: bold; font-size: 38px; color:#424242; line-height: 150px;; margin-left: 130px; }
+		
+		.ceo_title {width: 800px; margin-left: 130px; margin-bottom: 20px; font-family: Arial, sans-serif; font-size: 26px; font-weight:bold; color:#676767}
+		.ceo_body {width: 800px; margin-left: 130px; margin-bottom: 20px; font-family: Arial, sans-serif; font-size: 16px;color:#676767; line-height: 25px; letter-spacing: -0.05px; word-wrap: break-word}
+		.ceo_sign {width: 800px; margin-left: 130px; margin-bottom: 20px; font-family: Arial, sans-serif; font-size: 22px; font-weight:bold;color:#676767; text-align: right}
+
+ 		#history {width:1024px; text-align: left; }
+        #history ul {}
+        #history ul li {} 
+		*/
+

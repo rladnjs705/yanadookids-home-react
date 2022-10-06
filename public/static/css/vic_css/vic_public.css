@@ -1,0 +1,77 @@
+.static_linbtn {
+    display: none;
+    position: fixed;
+    bottom:0;
+    z-index: 9995;
+    width: 100%;
+    height: 130px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.static_linbtn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.pc_static_linbtn {
+    position: fixed;
+    top:22px;
+    z-index: 9995;
+    width: 179px;
+    height: 220px;
+    right: 32px;
+}
+.pc_static_linbtn a{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.pc_static_linbtn a:hover{
+    background-color: transparent;
+}
+.pc_static_linbtn a:active {
+    background-color: transparent;
+}
+.kakaokids-link{
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 9995;
+    width: 200px;
+    height: 51px;
+    left: 20px;
+    background-color: transparent;
+}
+.kakaokids-link a{
+    display: block;
+    background:url(../../img/logo.png) no-repeat 0 0; background-size:contain;
+    width: 100%;
+    height: 100%;
+}
+@media all and (max-width: 800px) {
+    .kakaokids-link{
+        top: 10px;
+        z-index: 9995;
+        width: 170px;
+        height: 35px;
+        left: 20px;
+        background-color: transparent;
+    }
+}
+@media all and (max-width: 500px) {
+    .kakaokids-link{
+        top: 5px;
+        z-index: 9995;
+        width: 150px;
+        height: 25px;
+        left: 10px;
+        background-color: transparent;
+    }
+    .static_linbtn {
+        height: 90px;
+    }
+}
