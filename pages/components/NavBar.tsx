@@ -9,7 +9,7 @@ export default function NavBar() {
         <nav>
             <div id="gnb" className="container-fluid gnb-option gnb-wrap gnb-shadow">
                 <div className="gnb_area container">
-                    <h1 style={{padding : "15px 0"}}>
+                    <h1>
                         <Link href="/"><a><img src="/static/img/logo.png" alt="야나두키즈"/></a></Link>
                     </h1>
                     <ul className="gnb clearfix">

@@ -3,10 +3,10 @@ import ResponsiveLayout from "./components/layouts/responsive.layout";
 import {useEffect, useState} from "react";
 import AOS from 'aos';
 
-import '../public/static/css/font.css'
-import '../public/static/css/style.css'
 import '../public/static/css/reset.css'
 import 'aos/dist/aos.css'
+import '../public/static/css/font.css'
+import '../public/static/css/style.css'
 import '../public/static/css/swiper.css'
 import '../public/static/css/public.css'
 import '../public/static/css/custom.css'
